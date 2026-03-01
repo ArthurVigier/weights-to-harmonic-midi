@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files (too large for git)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Large data
+*.npy
+*.npz
+*.tar.gz
+
+# Colab
+.colab/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.secret
+
+# Generated MIDI (regenerable from notebooks)
+*.mid
+
+# Large WAV files not in samples/
+# (keep audio/samples/ tracked)
